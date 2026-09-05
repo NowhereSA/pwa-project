@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Pacifico&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+:root {
+  /* Reset */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-border-box;
+
+  /* cores */
+  --bg-color: rgb(26, 26, 26);
+  --bg-secundary: rgb(41, 41, 42);
+  --text-color: rgb(217, 217, 217);
+  --button-text: rgb(26, 26, 26);
+  --button-color: rgb(217, 217, 217);
+  --button-hover: hsl(0, 0%, 55%);
+
+  /* Espaçamentos e Bordas */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lm: 1.5rem;
+  --spacing-md: 1rem;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Mona Sans", sans-serif;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

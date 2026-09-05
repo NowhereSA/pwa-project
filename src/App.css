@@ -1,0 +1,33 @@
+.mainContent {
+  padding: var(--radius-lm);
+  background: var(--bg-secundary);
+
+  border-radius: var(--radius-md);
+  height: 15rem;
+  width: 20rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: var(--spacing-md);
+
+  font-size: 1.5rem;
+}
+
+button {
+  border-radius: var(--radius-md);
+  border: none;
+  padding: var(--radius-sm);
+  font-size: 1rem;
+
+  background-color: var(--button-color);
+  color: var(--button-text);
+
+  width: 6.25rem;
+  height: 2.5rem;
+}
+
+button:hover {
+  background-color: var(--button-hover);
+}
